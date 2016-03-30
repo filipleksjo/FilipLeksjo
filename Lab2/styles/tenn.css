@@ -1,0 +1,33 @@
+body {
+	background-color: silver;
+}
+
+h1 {
+	color: hotpink;
+	text-align: center;
+}
+
+h2 {
+	color: purple;
+}
+
+aside {
+	background-color: gold;
+}
+
+footer {
+	text-align: center;
+}
+
+.silver {
+	background-color: gold;
+}
+
+table {
+	background-color: white;
+	border: solid;
+	border-color: black;
+}
+th {
+	border-bottom: solid;
+}

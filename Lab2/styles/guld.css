@@ -1,0 +1,20 @@
+body {
+	background-color: gold;
+}
+
+h1 {
+	color: hotpink;
+	text-align: center;
+}
+
+h2 {
+	color: purple;
+}	
+
+aside {
+	background-color: silver;
+}
+
+footer {
+	text-align: center;
+}
