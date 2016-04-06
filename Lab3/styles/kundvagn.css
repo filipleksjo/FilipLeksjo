@@ -1,0 +1,19 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: forestgreen;
+	text-align: center;
+}
+
+td {
+	border: 1px solid black;
+	padding: 30px;
+}
+
+img {
+	float: right;
+}	
+
+td class="text" colspan="3">
