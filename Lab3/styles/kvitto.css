@@ -1,0 +1,38 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: forestgreen;
+	text-align: center;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+}
+
+.totalt {
+	text-align: left;
+	padding: 10px;
+}
+
+.knapp {
+	background-color: forestgreen;
+	width: 100px;
+	height: 70px;
+}
+
+.knapp:hover {
+	background-color: lightgreen;
+}
+
+fieldset {
+	width: 200px;
+	text-align: center;
+	margin: auto;
+}

@@ -8,12 +8,80 @@ header {
 }
 
 td {
-	border: 1px solid black;
-	padding: 30px;
+	border-bottom: 1px solid black;
+	padding: 20px;
 }
 
 img {
 	float: right;
 }	
 
-td class="text" colspan="3">
+.antal {
+	width: 100px;
+}
+
+.summa {
+	background-color: lightgreen;
+}
+
+input {
+	width: 70px;
+	align: center;
+}
+
+a {
+	color: gray;
+}
+
+a:hover {
+	color: darkgreen;
+	
+}
+
+.button {
+	background-color: forestgreen;
+	width: 100px;
+	height: 70px;
+}
+
+.button:hover {
+	background-color: lightgreen;
+}
+
+.slutforkop {
+	float: left;
+}
+
+.fieldset {
+	float: left;
+	margin: 20px;
+}
+
+.textruta {
+	float: right;
+}
+
+.infotext {
+	float:left;
+	margin: 2px;
+	clear: both;
+}
+
+.kvitto {
+	text-align: right;
+}
+
+select {
+	height: 58px;
+	float: left;
+	margin: 20px 40px 0 40px;
+}
+
+.godkann {
+	float: left;
+	margin: 20px;
+}
+
+footer {
+	clear: both;
+}

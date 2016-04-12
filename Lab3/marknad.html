@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<head>
+	<title>Golfprodukter</title>
+	<meta charset="utf-8">
+	<link href="styles/marknad.css" rel="stylesheet">
+	<meta name="description" content="Kvitto">
+	<meta name="keywords" content="Köp, kvitto">
+	<meta name="author" content="Filip Leksjö">
+</head>
+<body>
+	<header>
+		<h1>Golfprodukter</h1>
+	</header>
+	<article>
+		<form action="tack.html">
+			<table>
+			<tr>
+				<td>Var det enkelt att köpa produkten?<br></td>
+				<td><input type="radio" name="jaellernej" value="ja">Ja<br>
+				<input type="radio" name="jaellernej" value="nej">Nej<br></td>
+			</tr>
+			<tr>
+				<td>Från en skala 1-5, hur nöjd är du med ditt köp?<br></td>
+				<td><input type="number" class="skala" min="1" max="5" /></td>
+			</tr>
+			<tr>
+				<td>Välj vad du tycker har varit bra med din vistelse på hemsidan.<br></td>
+				<td><input type="checkbox" name="valj" value="navigering">Navigeringen<br>
+				<input type="checkbox" name="valj" value="pris">Priset<br>
+				<input type="checkbox" name="valj" value="design">Designen<br>
+				<input type="checkbox" name="valj" value="utbud">Utbudet<br>
+				<input type="checkbox" name="valj" value="kundservice">Kundservice<br></td>
+			</tr>
+			<tr>
+				<td>Var har du för handicap i golf?</td>
+				<td>
+				<select>
+					<option value="+6">+6 - 0</option>
+					<option value="0">0 - 5</option>
+					<option value="5">5 - 10</option>
+					<option value="10">10 - 15</option>
+					<option value="15">15 - 20</option>
+					<option value="20">20 - 25</option>
+					<option value="25">25 - 30</option>
+					<option value="30">30 - 36</option>
+				</select>
+			</tr>
+			<tr>
+				<td>Något annat du vill berätta för oss?<br>
+				<textarea rows="3" cols="50" maxlength="200"></textarea></td>
+			</tr>
+			</table>
+			<input type="submit" name="submit" value="Skicka">
+		</form>
+	</article>
+	<footer>
+		<p><i>&copy;Filip Leksjö 2016</i></p>
+	</footer>
+</body>
+</html>

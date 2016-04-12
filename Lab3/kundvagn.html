@@ -3,7 +3,7 @@
 <head>	
 	<title>Kundvagn</title>
 	<meta charset="utf-8">
-	<meta name="description" content="Första sidan">
+	<meta name="description" content="Andra sidan">
 	<meta name="keywords" content="Golf, produkter, titleist, cobra, driver, hybrid, järnset, putter, bag, sandwedge">
 	<meta name="author" content="Filip Leksjö">
 	<link href="styles/kundvagn.css" rel="stylesheet">
@@ -14,31 +14,75 @@
 	</header>
 	<article>
 		<table style="width:100%">
-			<th>Namn</th><th>Antal</th><th>Pris</th><th>Summa pris och antal</th>
+			<th>Namn</th><th width="50px"></th><th>Antal</th><th>Pris</th><th>Summa pris</th><th></th>
 				<tr>
-					<td>Cobra driver <img src="images/driver.jpg" width="70px"></td>
-					<td>1r</td>
-					<td>1000</td>
-					<td>1000</td>
-				</tr>
-				<tr class="silver">
-					<td>Scotty Cameron putter <img src="images/putter.jpg" width="70px"></td>
-					<td>1r</td>
-					<td>1000</td>
-					<td>1000</td>
+					<td>Cobra driver</td>
+					<td><img src="images/driver.jpg" width="70px"></td>
+					<td><input type="number" min="1" max="5" /></td>
+					<td>2999 SEK</td>
+					<td>2999 SEK</td>
+					<td><a href="">X</a></td>
 				</tr>
 				<tr>
-					<td>Titleist bag <img src="images/bag.jpg" width="70px"></td>
-					<td>1r</td>
-					<td>1000</td>
-					<td>1000</td>
+					<td>Scotty Cameron putter</td>
+					<td><img src="images/putter.jpg" width="70px"></td>
+					<td><input type="number" min="1" max="5" /></td>
+					<td>2599 SEK</td>
+					<td>2599 SEK</td>
+					<td><a href="">X</a></td>
+				</tr>
+				<tr>
+					<td>Titleist bag</td>
+					<td><img src="images/bag.jpg" width="70px"></td>
+					<td><input type="number" min="1" max="5" /></td>
+					<td>1899 SEK</td>
+					<td>1899 SEK</td>
+					<td><a href="">X</a></td>
+				</tr>
+				<tr class="summa">
+					<td colspan="3"><b>Totalpris: 7497 SEK</b><br /></td>	
+					<td class="frakt" colspan="3">Fri frakt</td>
 				</tr>
 		</table>
+		<fieldset class="fieldset">
+			<form class="slut">
+				<label class="infotext" for="Namn">Namn</label>
+				<input class="textruta" name="Namn" required id="Namn"><br />
+				<label class="infotext" for="efternamn">Efternamn</label>
+				<input class="textruta" name="LastName" required id="efternamn"><br />
+				<label class="infotext" for="email">Email</label>
+				<input class="textruta" name="Email" required id="email"><br />
+				<label class="infotext" for="telefon">Mobilnummer</label>
+				<input class="textruta" name="mobil" id="telefon"><br />
+				<label class="infotext" for="postort">Postort</label>
+				<input class="textruta" name="postort" required id="postort"><br />
+				<label class="infotext" for="address">Adress</label>
+				<input class="textruta" name="address" required id="address"><br />
+				<label class="infotext" for="postnr">Postnummer</label>
+				<input class="textruta" name="postnummer" required id="postnr"><br />
+			</form>
+		</fieldset>
+		<select>
+			<option>Betalkort</option>
+			<option value="VISA">VISA</option>
+			<option value="Mastercard">MasterCard</option>
+			<option value="Americanexpress">American Express</option>
+		</select>
+		<fieldset width="200px" class="godkann">
+			<form>
+				<input type="checkbox" name="confirm" value="confirm">Jag vill få nyhetsbrev från Golfprodukter<br>
+				<input type="checkbox" name="confirm" value="confirm">Jag godkänner Golfprodukters köpvillkor<br>
+			</form>
+		</fieldset>
+			<form action="kvitto.html" class="kvitto"	
+				<td>	
+					<input type="submit" name="button" value="Betala" class="button">
+				</td>				
+			</form>
 	</article>
 	<footer>
 		<p>
-		<i>Filip Leksjö <br />
-		Copyright 2016</i>
+		<i>&copy; Filip Leksjö 2016<br /></i>
 		</p>
 	</footer>
 </body>

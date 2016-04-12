@@ -1,0 +1,17 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: forestgreen;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+}
+
+td {
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
