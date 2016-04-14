@@ -4,7 +4,7 @@ body {
 .loggo {
 	float: left;
 	clear: both;
-	width: 200px;
+	width: 150px;
 	margin: 0 0 0 0;
 }
 .kund {
@@ -16,7 +16,10 @@ body {
 .varukorg { 
 	margin: 0 150px 0 0;
 }
-.navigering{
+.navigering2{
+	margin: 0 0 0 0;
+}
+.navigering1{
 	margin: 0 0 0 0;
 }
 .killar {
@@ -26,8 +29,14 @@ body {
 	margin: 0 210px 0 0;
 }
 .nyheter { 
-	margin: 0 80px 0 0;
+	margin: 0 0 0 0;
 }
 .konto{
 	margin: 8px 0 0 0;
+}
+.searchbar{
+	height: 52px;
+}
+.gobutton{
+	height: 52px;
 }
