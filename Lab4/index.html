@@ -9,62 +9,160 @@
 	<meta name="author" content="Filip Leksjö">
 	<link href="styles/bootstrap.css" rel="stylesheet">
 	<link href="styles/techclothes.css" rel="stylesheet">
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<section class="container-fluid">
 	<div class="row">
+	<section class="container">
 		<header class="col-sm-2">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="index.html"><img src="images/loggo.png" alt="loggo" class="loggo"></a>
 		</div>
 		</header>
-		<header class="col-sm-10">
+		<header class="col-sm-8">
 		<nav class="navbar navbar-default navigering1">
-		<ul class="nav navbar-nav">
-			<li class="kund"><a href="index.html">Kundservice</a></li>
-			<li class="omtech"><a href="index.html">Om Tech Clothes</a></li>
-			<li class="varukorg"><a href="index.html">Varukorg</a></li> 
-		</ul>
-		<div class="dropdown konto">
-   			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Mitt konto
-   			<span class="caret"></span></button>
-   				<ul class="dropdown-menu" role="menu">
-   			 		<li role="presentation"><a role="menuitem" href="#">Logga in</a></li>
-    					<li role="presentation"><a role="menuitem" href="#">Registrera</a></li>
-  				</ul>
-		</div>
+			<ul class="nav navbar-nav">
+				<li class="kund"><a href="index.html">Kundservice</a></li>
+				<li class="omtech"><a href="index.html">Om Tech Clothes</a></li>
+				<li class="dropdown varukorg">
+					<a class="dropdown toggle" data-toggle="dropdown" href="#">Varukorg</a>
+					<ul class="dropdown-menu">
+						<li class="varukorgdrop">
+						<table>
+							<tr>Varukorg</tr>
+								<td class="varutd">Din varukorg är tom.</td>
+						</table>
+						</li>
+					</ul>
+				</li> 
+			</ul>
 		</nav>
 		</header>
 		<header class="col-sm-2">
+		<div class="dropdown">
+		<form action="index.html">
+   			<button class="btn btn-default dropdown-toggle konto" type="button" data-toggle="dropdown">Mitt konto<span class="caret"></span></button>
+   			<ul class="dropdown-menu kontodrop" role="menu">
+   		 		<li><h2>Logga in</h2></li>
+    				<li><label class="infotext" for="email">Email</label>
+				<input class="textruta" name="Email" required id="email" maxlength="50"></li>
+				<li><label class="infotext" for="password">Password</label>
+				<input class="textruta" name="password" required id="password" maxlength="50"></li>
+				<li class="losenord"><a href="#">Glömt lösenord?</a></li>
+				<li class="loggain"><input type="submit" name="button" value="Logga in" class="loggainknapp"></li>
+				<li class="ingetkonto">Inget konto?</li>
+				<li class="skapaett"><a href="#">Skapa ett</a></li>
+  			</ul>	
+		</form>
+		</div>
+		</header>
+	</section>
+	<section class="container">
+		<header class="col-sm-2 ingenheader">
 		</header>
 		<header class="col-sm-8">
 		<nav class="navbar navbar-inverse navigering2">
-		<ul class="nav navbar-nav">
-			<li class="killar"><a href="index.html">Killar</a></li>
-			<li class="tjejer"><a href="index.html">Tjejer</a></li>
-			<li class="nyheter"><a href="index.html">Nyheter</a></li> 
-		</ul>
+			<ul class="nav navbar-nav dropdown">
+				<li class="dropdown killar">
+					<a class="dropdown toggle" data-toggle="dropdown" href="#">Killar</a>
+					<ul class="dropdown-menu killardrop">
+						<li><a href="jeans.html">Jeans</a></li>
+						<li><a href="t-shirts.html">T-shirts</a></li>
+						<li><a href="nyheter.html">Nyheter</a></li>
+					</ul>
+				</li>
+				<li class="dropdown tjejer">
+					<a class="dropdown toggle" data-toggle="dropdown" href="#">Tjejer</a>
+					<ul class="dropdown-menu tjejerdrop">
+						<li><a href="jeans.html">Jeans</a></li>
+						<li><a href="t-shirts.html">T-shirts</a></li>
+						<li><a href="nyheter.html">Nyheter</a></li>
+					</ul>
+				</li>
+				<li class="nyheter"><a href="nyheter.html">Nyheter</a></li> 
+			</ul>
 		</nav>
 		</header>
 		<header class="col-sm-2">
 		<div class="input-group">
-			<input type="text" class="form-control searchbar" placeholder="Search for...">
+			<input type="text" maxlength="50" class="form-control searchbar" placeholder="Search for...">
 			<span class="input-group-btn">
 				<button class="btn btn-default gobutton" type="button">Go!</button>
 			</span>
 		</div>
 		</header>
 		<header class="col-sm-12">
-			<a href="index.html">Hem</a>
+			Här är du: <a href="index.html">Hem</a>
 		</header>
+		<article class="col-sm-8">
+			<a href="t-shirts.html"><img src="images/t-shirts.jpg" alt="t-shirtsrea" class="t-shirtbanner"></a>
+		</article>
+		<article class="col-sm-2">
+			<a href="t-shirts.html"><img src="images/rea.jpg" alt="rea" class="reabild"></a>
+		</article>
+		<aside class="col-sm-2">
+			<img src="images/gillafacebook.png" alt="gillafacebook" class="gillafacebook">
+		</aside>
+		<article class="col-sm-12">
+		</article>
+		<article class="col-sm-2">
+			<figure class="figure1">
+				<figcaption>Jeans från <br /> <b>199 SEK</b></figcaption>
+					<a href="jeans.html"><img src="images/jeans.jpg" alt="jeans" class="bilder1"></a>
+			</figure>
+		</article>
+		<article class="col-sm-2">
+			<figure class="figure1">
+				<figcaption>Polotröjor från <br /> <b>299 SEK</b></figcaption>
+					<img src="images/polo.jpg" alt="polo" class="bilder1">
+			</figure>
+		</article>
+		<article class="col-sm-2">
+			<figure class="figure1">
+				<figcaption>Jeansjackor från <br /> <b>299 SEK</b></figcaption>
+					<img src="images/jeansjacka.jpg" alt="jeansjacka" class="bilder1">
+			</figure>
+		</article>
+		<article class="col-sm-2">
+			<figure class="figure1">
+				<figcaption>Vårjackor från <br /> <b>499 SEK</b></figcaption>
+					<img src="images/varjacka.jpg" alt="Vårjacka" class="bilder1">
+			</figure>
+		</article>
+		<article class="col-sm-2">
+			<figure class="figure1">
+				<figcaption>Damjeans från <br /> <b>199 SEK</b></figcaption>
+					<img src="images/damjeans.jpg" alt="Damjeans" class="bilder1">
+			</figure>
+		</article>
+		<article class="col-sm-2">
+			<figure class="figure2">
+				<figcaption>Nyhet! <br /> <b>Ljusa jeans</b></figcaption>
+					<a href="jeansproduktsida.html"><img src="images/jeansnyheter.jpg" alt="jeans" class="beigashorts"></a>
+			</figure>
+		</article>
+		<article class="col-sm-12">
+			<video controls="controls">
+				<source src="videos/dress.mp4" type="video/mp4" />
+			</video>
+		</article> 
+		<footer class="col-sm-12 footer1">
+			<img src="images/facebook.jpg" class="facebook" alt="facebook">
+			<img src="images/instagram.png" class="instagram" alt="instagram">
+			<img src="images/trygg.png" class="trygg" alt="trygg e-handel">
+			Kontaktinfo <p>techclothes@hcb.se | Tel: 101-112 1314 </p>
+			<div class="footerborder1">
+				<img src="images/mastercard.jpg" class="mastercard" alt="mastercard">
+				<img src="images/visa.png" class="visa" alt="visa">
+				<img src="images/paypal.png" class="paypal" alt="paypal">
+				<img src="images/klarna.png" class="klarna" alt="klarna">
+			</div>
+		<div class="footerborder2">
+			&copy; <i>Tech Clothes AB 2016</i>
+		</div>	
+		</footer>
 	</section>
 	</div>
-		
-	<article>
-	
-	</article>
-	<footer>
-	
-	</footer>
 </body>
 </html>

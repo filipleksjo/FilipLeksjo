@@ -1,0 +1,217 @@
+body {
+	font-family: sans-serif;
+}
+.loggo {
+	float: left;
+	clear: both;
+	width: 150px;
+	margin: 0 0 0 0;
+}
+.navigering2 {
+	margin: 0 0 0 0;
+}
+.navigering1 {
+	margin: 0 0 0 0;
+}
+.kund {
+	margin: 0 160px 0 40px;
+}
+.kund:hover {
+	background-color: white;
+	border: none;
+}
+.omtech {
+	margin: 0 158px 0 0;
+}
+.omtech:hover {
+	background-color: white;
+	border: none;
+}
+.varukorg { 
+	margin: 0 0 0 0;
+}
+.varukorg:hover {
+	background-color: white;
+	border: none;
+}
+.varukorgdrop {
+	width: 300px;
+	height: 200px;
+}
+.varutd {
+	border-top: 1px solid black;
+	padding: 85px;
+}
+.killar {
+	margin: 0 220px 0 57px;
+}
+.killar:hover {
+	background-color: #00CCFF;
+	border: none;
+}
+.killar:hover .killardrop {
+	display: block;
+}
+.tjejer {
+	margin: 0 205px 0 0;
+}
+.tjejer:hover {
+	background-color: #00CCFF;
+	border: none;
+}
+.tjejer:hover .tjejerdrop {
+	display: block;
+}
+.nyheter { 
+	margin: 0 0 0 0;
+}
+.nyheter:hover {
+	background-color: #800;
+	border: none;
+}
+.konto {
+	margin-top: 8px;
+	width: 100%;
+	position: absolute;
+}
+.kontodrop {
+	width: 182px;
+	height: 300px;
+}
+h1 {
+	text-shadow: 3px 3px #00CCFF;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+h1:hover {
+	color: gray;
+}
+.textruta {
+	width: 100px;
+	float: right;
+}
+.infotext {
+	float: left;
+	margin: 5px 0 0 0;
+}
+.losenord {
+	padding: 20px;
+	text-align: center;
+	clear: both;
+}
+.loggain {
+	text-align: center;
+	clear: both;
+	background-color: #00CCFF;
+	color: white;
+	padding: 8px;
+}
+.loggainknapp {
+	background-color: #00CCFF;
+}
+.ingetkonto {
+	text-align: center;
+	margin: 8px 0 10px 0;
+}
+.skapaett {
+	text-align: center;
+}
+.searchbar{
+	height: 52px;
+}
+.gobutton{
+	height: 52px;
+}
+.jeansbild {
+	float: left;
+	width: 35%;
+}
+.jeansdiv {
+	float: left;
+	margin-left: 5%;
+	width: 50%;
+}
+h2 {
+	text-align: center;
+}
+.p1 {
+	border-top: 1px dotted black;
+}
+.p3 {
+	border-bottom: 1px dotted black;
+}
+select {
+	width: 40%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.kop {
+	width: 90%;
+	background-color: #00CCFF;
+	color: white;
+	font-size: 120%;
+}
+.kop:hover {
+	background-color: 0088FF
+}
+.gillafacebook {
+	float: right
+	width: 100px;
+}
+.bilder1 {
+	width: 100%;
+	height: 200px;
+}
+.liknande {
+	background-color: #555;
+	text-align: center;
+	margin-top: 0;
+	color: white;
+	width: 100%;
+}
+.facebook {
+	position: relative;
+	float: left;
+	width: 50px;
+	margin-right: 15px;
+}
+.instagram {
+	position: relative;
+	float: left;
+	width: 50px;
+}
+.trygg {
+	position: relative;
+	float: right;
+	width: 100px;
+}
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #E8E8E8;
+	margin-top: 20px;
+}
+.footerborder1 {
+	border-top: 0.5px dotted black;
+}
+.footerborder2 {
+	border-top: 0.5px dotted black;
+	text-align: center;
+}
+.mastercard {
+	width: 60px;
+	height: 35px;
+	margin-left: 100px;
+}
+.visa {
+	width: 60px;
+	margin-left: 15px;
+}
+.paypal {
+	width: 60px;
+	margin-left: 15px;
+}
+.klarna {
+	width: 60px;
+	margin-left: 15px;
+}
